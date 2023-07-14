@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 clas="text-center ng-primary p-3">Bootstrap Cards</h1>
+        <h1 class="text-center bg-primary p-3">Bootstrap Cards</h1>
         <hr>
         <hr>
         <div class="row">
@@ -61,7 +61,7 @@
         <hr>
         <hr>
         <hr>
-        <h1 clas="text-center ng-primary p-3">Bootstrap Dropdown</h1>
+        <h1 class="text-center bg-primary p-2 text-white">Bootstrap Dropdown</h1>
         <div class="dropdown">
             <a href="" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >Dropdown Menu</a>
             <ul class="dropdown-menu">
@@ -143,6 +143,51 @@
                 <li class="dropdown-item">Menu-5</li>
 
             </ul>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <h1 class="text-center bg-primary p-2 text-white">Bootstrap Collapse</h1>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Demo1"> Paragraph</button>
+        <div class="collapse" id="Demo1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur corrupti, nobis natus fugit sunt, aperiam amet facere ullam voluptatibus, totam id cum asperiores recusandae eveniet nostrum odit consequatur a nisi dolorem vel hic magnam. Cumque expedita nam illum aspernatur eius ad saepe dicta commodi inventore, atque nobis animi excepturi?</p>
+        </div>
+        <hr>
+        <hr>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#Demo2"> Paragraph</button>
+        <div class="collapse show" id="Demo2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur corrupti, nobis natus fugit sunt, aperiam amet facere ullam voluptatibus, totam id cum asperiores recusandae eveniet nostrum odit consequatur a nisi dolorem vel hic magnam. Cumque expedita nam illum aspernatur eius ad saepe dicta commodi inventore, atque nobis animi excepturi?</p>
+        </div>
+        <hr>
+        <hr>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-1">Paragraph-1</button>
+                </div>
+                <div class="card-body collapse show" id="para-1" data-bs-parent="#accordion" >
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perferendis consequatur officia. Rerum sit vitae minima quidem rem molestias voluptas omnis saepe iusto enim. Laboriosam necessitatibus facere provident et maiores temporibus dolor, voluptatum veritatis assumenda neque amet, ipsam perspiciatis maxime qui nisi illum accusantium minima hic. Dignissimos quisquam facilis quas officiis?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-2">Paragraph-2</button>
+                </div>
+                <div class="card-body collapse" id="para-2" data-bs-parent="#accordion" >
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perferendis consequatur officia. Rerum sit vitae minima quidem rem molestias voluptas omnis saepe iusto enim. Laboriosam necessitatibus facere provident et maiores temporibus dolor, voluptatum veritatis assumenda neque amet, ipsam perspiciatis maxime qui nisi illum accusantium minima hic. Dignissimos quisquam facilis quas officiis?</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn" data-bs-toggle="collapse" data-bs-target="#para-3">Paragraph-3</button>
+                </div>
+                <div class="card-body collapse" id="para-3" data-bs-parent="#accordion" >
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perferendis consequatur officia. Rerum sit vitae minima quidem rem molestias voluptas omnis saepe iusto enim. Laboriosam necessitatibus facere provident et maiores temporibus dolor, voluptatum veritatis assumenda neque amet, ipsam perspiciatis maxime qui nisi illum accusantium minima hic. Dignissimos quisquam facilis quas officiis?</p>
+                </div>
+            </div>
         </div>
         <br><br><br><br><br><br><br><br><br><br>
     </div>
